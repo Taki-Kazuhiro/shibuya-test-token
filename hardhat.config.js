@@ -15,7 +15,7 @@ module.exports = {
   solidity: "0.8.4",
   networks:{
     shibuya: {
-      url:"https://rpc.shibuya.astar.network:8545",
+      url:"https://evm.shibuya.astar.network",
       chainId:81,
       accounts:[process.env.PRIVATE_KEY],
     }

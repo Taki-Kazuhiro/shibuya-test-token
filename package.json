@@ -1,7 +1,7 @@
 {
   "name": "astar-token",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Zenn](https://zenn.dev/yhoi/articles/5dd5b8249a0186)\r - [Qiita](https://qiita.com/ydevelop/items/56ae9e69eb86a7c860e2)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,10 +15,13 @@
     "chai": "^4.3.6",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.6.4",
-    "hardhat": "^2.9.3"
+    "hardhat": "^2.16.1"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.5.0",
-    "dotenv": "^16.0.0"
+    "@openzeppelin/contracts": "^4.9.2",
+    "dotenv": "^16.3.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
